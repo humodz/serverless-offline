@@ -27,3 +27,9 @@ functions:
           method: get
           path: /echo
     handler: src/handler.echo
+  echo2:
+    events:
+      - httpApi:
+          method: get
+          path: /echo2
+    handler: src/handler.echo
